@@ -9,4 +9,14 @@ export default defineConfig({
       '@': '/src',
     },
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: `
+          @use '@/style/variables' as *;
+          @use '@/style/mixins' as *;
+        `,
+      },
+    },
+  },
 })
