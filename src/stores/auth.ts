@@ -48,6 +48,9 @@ export const useAuthStore = defineStore('auth', {
         })
 
         await this.fetchUser()
+      } catch (error) {
+        this.user = null
+        this.loading = false
       } finally {
         this.loading = false
       }

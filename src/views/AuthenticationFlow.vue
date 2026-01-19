@@ -9,11 +9,11 @@
   </div>
 
   <div v-else>
-    <input v-model="email" placeholder="Email" />
-    <input v-model="password" type="password" placeholder="Password" />
-    <button @click="auth.login(email, password)">
+    <TextField v-model="email" label="Email" placeholder="teste"/>
+    <TextField v-model="password" type="password" label="Password"/>
+    <Button @click="auth.login(email, password)">
       Login
-    </button>
+    </Button>
   </div>
 </template>
 

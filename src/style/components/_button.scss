@@ -1,0 +1,16 @@
+.button {
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--color-hover-primary);
+  }
+
+  &.button.rounded {
+    border-radius: 9999px !important;
+  }
+}

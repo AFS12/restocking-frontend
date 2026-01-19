@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Default from '@/views/Default.vue'
+import Default from '@/views/AuthenticationFlow.vue'
 
 export const router = createRouter({
   history: createWebHistory(),

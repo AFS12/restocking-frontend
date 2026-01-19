@@ -1,0 +1,8 @@
+:root[data-theme='dark'] {
+  --color-bg: #0f172a;
+  --color-text: #e5e7eb;
+  --color-primary: #818cf8;
+  --color-border: #d9dadbb7;
+  --color-hover-primary: color-mix(in srgb, var(--color-primary) 80%, black);
+  --color-hover-secondary: color-mix(in srgb, var(--color-bg) 80%, white);
+}
